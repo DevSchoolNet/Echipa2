@@ -21,7 +21,11 @@ namespace AuthentificareUtilizatori
             met = Console.ReadLine();
             var user = new Utilizator(name, password, met);
 
-
+            DAO abc = new DAO();
+            if (abc.login(user))
+                Console.WriteLine("A mers!");
+            if (abc.login(new Utilizator("Theo", "1234215", "Windows")))
+                Console.WriteLine("a mers");
         }
     }
 }
