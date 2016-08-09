@@ -10,6 +10,12 @@ namespace AuthentificareUtilizatori
     {
         static void Main(string[] args)
         {
+            string name = "\0";
+            string password = "\0";
+            Console.WriteLine("Username:");
+            name = Console.ReadLine();
+            Console.WriteLine("Password");
+            password = Console.ReadLine();
 
         }
     }
