@@ -10,6 +10,7 @@ namespace AuthentificareUtilizatori
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
