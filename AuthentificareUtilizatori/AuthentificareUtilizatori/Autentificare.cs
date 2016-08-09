@@ -8,7 +8,7 @@ namespace AuthentificareUtilizatori
 {
     class Autentificare
     {
-        public DAO StoredDataBase { get; set; }
+        
 
         public static void login(Utilizator u)
         {
