@@ -10,11 +10,13 @@ namespace AuthentificareUtilizatori
     {
         public string UserName { get; set; }
         public string Password { get; set; }
+        public string MetodaAutentificare { get; set; }
 
-        public Utilizator(string User, string Password)
+        public Utilizator(string User, string Password,string Met)
         {
             this.UserName = User;
             this.Password = Password;
+            this.MetodaAutentificare = Met;
         }
     }
 }
